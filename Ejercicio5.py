@@ -7,6 +7,9 @@ def descomponer(numero):
     miles = (numero % 10000) // 1000
     return "Unidades: {}, Decenas: {}, Centenas: {}, Miles: {}".format(unidades, decenas, centenas, miles)
 
-if __name__ == "__main__":
+def main_numero_descomponer():
     numero = int(input("Ingrese un numero entero: "))
     print(descomponer(numero))
+
+if __name__ == "__main__":
+    main_numero_descomponer()

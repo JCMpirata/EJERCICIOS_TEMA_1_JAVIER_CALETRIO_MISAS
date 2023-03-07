@@ -29,7 +29,7 @@ def main():
         elif opcion == 4:
             Ejercicio4.main_cola()
         elif opcion == 5:
-            Ejercicio5.main_cadena()
+            Ejercicio5.main_numero_descomponer()
         elif opcion == 6:
             Ejercicio6.main_cadena()
         elif opcion == 7:
