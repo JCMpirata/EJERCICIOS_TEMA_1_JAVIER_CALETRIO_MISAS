@@ -25,7 +25,7 @@ def main():
         elif opcion == 2:
             Ejercicio2.main_numero()
         elif opcion == 3:
-            Ejercicio3.main_cadena()
+            Ejercicio3.main_lista_comun()
         elif opcion == 4:
             Ejercicio4.main_cadena()
         elif opcion == 5:

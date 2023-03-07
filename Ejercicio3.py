@@ -11,9 +11,14 @@ def elementos_comunes(lista1, lista2):
             lista_comun.remove(elemento_comun)
     return lista_comun
 
-if __name__ == "__main__":
-    lista1 = ["h", "o", "l", "a", " ", "m", "u", "n", "d", "o"]
-    lista2 = ["h", "o", "l", "a", " ", "l", "u", "n", "a"]
+def main_lista_comun():
+    texto1 = input("Ingrese una cadena: ")
+    texto2 = input("Ingrese otra cadena: ")
+    lista1 = list(texto1)
+    lista2 = list(texto2)
     print(elementos_comunes(lista1, lista2))
+    
 
+if __name__ == "__main__":
+    main_lista_comun()
 
