@@ -5,6 +5,9 @@ def voltear_cadena(cadena):
         cadena_separada = cadena_volteada.split(" ")
         return "{} {} ha sacado un {} de nota".format(cadena_separada[1], cadena_separada[2], cadena_separada[0])
     
-if __name__ == "__main__":
+def main_voltear_cadena():
     cadena = input("Ingrese una cadena: ")
     print(voltear_cadena(cadena))
+    
+if __name__ == "__main__":
+    main_voltear_cadena()
