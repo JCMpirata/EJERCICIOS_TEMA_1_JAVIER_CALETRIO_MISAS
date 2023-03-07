@@ -6,7 +6,7 @@ import Ejercicio5
 import Ejercicio6
 import Ejercicio7
 
-def menu():
+def menu_iniciar():
     print("1. Ejercicio 1")
     print("2. Ejercicio 2")
     print("3. Ejercicio 3")
@@ -16,9 +16,7 @@ def menu():
     print("7. Ejercicio 7")
     print("8. Salir")
 
-def main():
     while True:
-        menu()
         opcion = int(input("Ingrese una opcion: "))
         if opcion == 1:
             Ejercicio1.main_voltear_cadena()
