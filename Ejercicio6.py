@@ -8,8 +8,13 @@ def separar_lista(lista):
             lista_pares.append(elemento)
         else:
             lista_impares.append(elemento)
-    return f"Pares: {lista_pares}", f" Impares: {lista_impares}"
+    return "Lista de pares: {} y lista de impares: {}".format(lista_pares, lista_impares)
+
+def main_cadena_numeros():
+    cadena = input("Ingrese una cadena: ")
+    lista_cadena_numero = cadena.split()
+    lista_cadena_numero = [int(elemento) for elemento in lista_cadena_numero]
+    print(separar_lista(lista_cadena_numero))
 
 if __name__ == "__main__":
-    lista = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
-    print(separar_lista(lista))
+    main_cadena_numeros()

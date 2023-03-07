@@ -8,7 +8,10 @@ def agregar_elemento(lista, elemento):
         lista.append(elemento)
     return lista
 
-if __name__ == "__main__":
+def main_agregar_elemento():
     lista = ["1", "5", "-2"]
     elemento = input("Ingrese un elemento: ")
     print(agregar_elemento(lista, elemento))
+
+if __name__ == "__main__":
+    main_agregar_elemento()

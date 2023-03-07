@@ -31,9 +31,9 @@ def main():
         elif opcion == 5:
             Ejercicio5.main_numero_descomponer()
         elif opcion == 6:
-            Ejercicio6.main_cadena()
+            Ejercicio6.main_cadena_numeros()
         elif opcion == 7:
-            Ejercicio7.main_cadena()
+            Ejercicio7.main_agregar_elemento()
         elif opcion == 8:
             break
         else:
