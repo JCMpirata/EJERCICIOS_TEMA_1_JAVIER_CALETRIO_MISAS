@@ -6,7 +6,7 @@ def voltear_cadena(cadena):
         return "{} {} ha sacado un {} de nota".format(cadena_separada[1], cadena_separada[2], cadena_separada[0])
     
 def main_voltear_cadena():
-    cadena = input("Ingrese una cadena: ")
+    cadena = input("Ingrese solo el apellido, nombre y nota por ese orden: ")
     print(voltear_cadena(cadena))
     
 if __name__ == "__main__":
